@@ -2,29 +2,29 @@
 
 ```text
 This project adds to C:
-	- dynamic collections: ArrayList, LinkedList, Stack, etc...;
-	- special cross-platform structure for working with paths in the file system: gc_Path, gc_Path_exists, gc_Path_is_file, etc...;
-	- cross-platform functions for working with OS: gc_PathWalkGen, gc_PathListDirGen, rmtree, makedirs, etc...;
-	- python-like string and functions to work with it: strip, replace, find, etc...;
-	- structures and methods for working with config ini-files: gc_INIFile, gc_INIFileCreator, etc...;
-	- and other features...
+- dynamic collections: ArrayList, LinkedList, Stack, etc...;
+- special cross-platform structure for working with paths in the file system: gc_Path, gc_Path_exists, gc_Path_is_file, etc...;
+- cross-platform functions for working with OS: gc_PathWalkGen, gc_PathListDirGen, rmtree, makedirs, etc...;
+- python-like string and functions to work with it: strip, replace, find, etc...;
+- structures and methods for working with config ini-files: gc_INIFile, gc_INIFileCreator, etc...;
+- and other features...
 ```
 
 ## Installation
 
 ```text
 Requirements:
-	- gcc compiler;
-	- C minimum standard: gnu99/C99;
-	- willingness to edit a makefile for your OS.
+- gcc compiler;  
+- C minimum standard: gnu99/C99;  
+- willingness to edit a makefile for your OS.  
 
 Building:
-	1. Download repository and extract(if needed);
-	2. Go to directory with makefile;
-	3.
-		```bash
-			make
-		```
+1. Download repository and extract(if needed);
+2. Go to directory with makefile;
+3.
+```bash
+	make
+```
 Or you can use pre-builded static and dynamic libraries from pre_builded folder.
 ```
 
